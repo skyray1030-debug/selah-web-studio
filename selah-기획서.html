@@ -1091,6 +1091,7 @@ async function submitToSheets() {
   };
 
   const payload = {
+    sheetName: '의뢰서 응답',
     제출시각: new Date().toLocaleString('ko-KR'),
     고객명: v('info_name'),
     연락처: v('info_phone'),
